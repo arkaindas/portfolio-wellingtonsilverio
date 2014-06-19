@@ -3,6 +3,7 @@
 <head>
 <title>desenvolvimento desktop, mobile, web &amp; designer - Campinas, SP | Wellington A. A. Silverio.</title>
 <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+<link href='css/font.css' rel='stylesheet' type='text/css'>
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <META HTTP-EQUIV="Expires" CONTENT="0">
@@ -51,11 +52,17 @@
 <body>
 <!-- Fazer um carregar div no meio(com a informacao e a porcentagem) e overflow hidden ate carregar -->
 <div id="banner">
+	<div id="statisticas">
+    	<div id="boxSts"><section><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path fill="#29B99A" d="M25,49.794c-0.947,0-1.854-0.224-2.551-0.625L5.345,39.293c-1.454-0.839-2.551-2.738-2.551-4.419V15.125c0-1.679,1.097-3.578,2.551-4.418l17.104-9.875C23.146,0.428,24.053,0.206,25,0.206s1.854,0.222,2.552,0.625l17.104,9.875c1.453,0.84,2.551,2.74,2.551,4.418v19.749c0,1.681-1.098,3.58-2.551,4.419l-17.104,9.876C26.854,49.57,25.947,49.794,25,49.794zM25,2.492c-0.545,0-1.058,0.116-1.408,0.319L6.488,12.687c-0.737,0.425-1.409,1.587-1.409,2.438v19.749c0,0.852,0.671,2.015,1.409,2.44l17.103,9.875c0.35,0.202,0.863,0.318,1.408,0.318s1.058-0.116,1.407-0.318l17.105-9.875c0.737-0.426,1.408-1.589,1.408-2.44V15.125c0-0.851-0.671-2.014-1.408-2.438L26.408,2.811C26.058,2.608,25.545,2.492,25,2.492z"></path></svg><div id="qntSts">571</div></section><div id="ttlSts">COPOS DE CAFE</div></div>
+        <div id="boxSts"><section><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path fill="#2BBCEE" d="M25,49.794c-0.947,0-1.854-0.224-2.551-0.625L5.345,39.293c-1.454-0.839-2.551-2.738-2.551-4.419V15.125c0-1.679,1.097-3.578,2.551-4.418l17.104-9.875C23.146,0.428,24.053,0.206,25,0.206s1.854,0.222,2.552,0.625l17.104,9.875c1.453,0.84,2.551,2.74,2.551,4.418v19.749c0,1.681-1.098,3.58-2.551,4.419l-17.104,9.876C26.854,49.57,25.947,49.794,25,49.794zM25,2.492c-0.545,0-1.058,0.116-1.408,0.319L6.488,12.687c-0.737,0.425-1.409,1.587-1.409,2.438v19.749c0,0.852,0.671,2.015,1.409,2.44l17.103,9.875c0.35,0.202,0.863,0.318,1.408,0.318s1.058-0.116,1.407-0.318l17.105-9.875c0.737-0.426,1.408-1.589,1.408-2.44V15.125c0-0.851-0.671-2.014-1.408-2.438L26.408,2.811C26.058,2.608,25.545,2.492,25,2.492z"></path></svg><div id="qntSts">0,1</div></section><div id="ttlSts" style="margin-top:70px;">MIL LINHAS PROGRAMAS</div></div>
+        <div id="boxSts"><section><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path fill="#965BA5" d="M25,49.794c-0.947,0-1.854-0.224-2.551-0.625L5.345,39.293c-1.454-0.839-2.551-2.738-2.551-4.419V15.125c0-1.679,1.097-3.578,2.551-4.418l17.104-9.875C23.146,0.428,24.053,0.206,25,0.206s1.854,0.222,2.552,0.625l17.104,9.875c1.453,0.84,2.551,2.74,2.551,4.418v19.749c0,1.681-1.098,3.58-2.551,4.419l-17.104,9.876C26.854,49.57,25.947,49.794,25,49.794zM25,2.492c-0.545,0-1.058,0.116-1.408,0.319L6.488,12.687c-0.737,0.425-1.409,1.587-1.409,2.438v19.749c0,0.852,0.671,2.015,1.409,2.44l17.103,9.875c0.35,0.202,0.863,0.318,1.408,0.318s1.058-0.116,1.407-0.318l17.105-9.875c0.737-0.426,1.408-1.589,1.408-2.44V15.125c0-0.851-0.671-2.014-1.408-2.438L26.408,2.811C26.058,2.608,25.545,2.492,25,2.492z"></path></svg><div id="qntSts">7</div></section><div id="ttlSts">PROJETOS</div></div>
+        <div id="boxSts"><section><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path fill="#E7E7E7" d="M25,49.794c-0.947,0-1.854-0.224-2.551-0.625L5.345,39.293c-1.454-0.839-2.551-2.738-2.551-4.419V15.125c0-1.679,1.097-3.578,2.551-4.418l17.104-9.875C23.146,0.428,24.053,0.206,25,0.206s1.854,0.222,2.552,0.625l17.104,9.875c1.453,0.84,2.551,2.74,2.551,4.418v19.749c0,1.681-1.098,3.58-2.551,4.419l-17.104,9.876C26.854,49.57,25.947,49.794,25,49.794zM25,2.492c-0.545,0-1.058,0.116-1.408,0.319L6.488,12.687c-0.737,0.425-1.409,1.587-1.409,2.438v19.749c0,0.852,0.671,2.015,1.409,2.44l17.103,9.875c0.35,0.202,0.863,0.318,1.408,0.318s1.058-0.116,1.407-0.318l17.105-9.875c0.737-0.426,1.408-1.589,1.408-2.44V15.125c0-0.851-0.671-2.014-1.408-2.438L26.408,2.811C26.058,2.608,25.545,2.492,25,2.492z"></path></svg><div id="qntSts">2</div></section><div id="ttlSts">CLIENTES</div></div>
+    </div>
 	<header id="perfil">
     	<div id="foto"></div>
         <h1>Wellington A. A. Silverio</h1>
         <p>desenvolvimento desktop, mobile, web &amp; designer</p>
-        <div id="seguir"></div>
+        <a href="#perfilCompleto"><div id="verMais">Mais Informações</div></a>
     </header>
 </div>
 <div id="servicos">
@@ -116,6 +123,24 @@
     <div id="ultimosOpenSource">
     	<div></div><div></div><div></div><div></div><div></div>
     	<div></div><div></div><div></div><div></div><div></div>
+    </div>
+</div>
+<div id="pecatrabalho">
+	<input type="button" name="" value="Work With Us" title="Work With Us" />
+</div>
+<div id="footer">
+	<div id="infoFooter">
+		<div id="infosInF">
+        	<div>© 2014 Wellington A. A. Silverio</div>
+            <div>Rodando no Apache / Servidor Windows</div>
+            <div>Hospedado por </div>
+        </div>
+        <div id="redesInF">
+          <div class='entypo-facebook'></div>
+          <div class='entypo-gplus'></div>
+          <div class='entypo-linkedin'></div>
+          <div class='entypo-github'></div>
+      </div>
     </div>
 </div>
 </body>
