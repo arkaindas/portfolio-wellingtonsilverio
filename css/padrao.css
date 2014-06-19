@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	color: inherit;
+    font-style: normal;
+    letter-spacing: -0.04em;
+    line-height: 1;
+	visibility: visible;
+	text-rendering: optimizelegibility;
+}
+body{
+}
