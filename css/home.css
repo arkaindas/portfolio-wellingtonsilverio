@@ -1,8 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url(http://weloveiconfonts.com/api/?family=entypo);
-
 #banner{
 	width:100%;
 	height:450px;
@@ -102,6 +100,157 @@
 	margin-top:100px;
 	color:#E7E7E7;
 	text-align:center;
+}
+#servicos{
+	padding-top:450px;
+	width:910px;
+	margin:0 auto;
+	text-align:center;
+	list-style: none outside none;
+}
+#servicos img{
+	width:100%;
+}
+#servicos h1{
+	font-size:36px;
+	margin:10px;
+}
+#servicos h2{
+	font-size:20px;
+	font-weight:600;
+	margin:20px;
+	color: #3C4B5D;
+	text-transform: uppercase;
+}
+#servicos #estruSvc{
+	width:300px;
+	display:inline-block;
+	vertical-align:top;
+}
+#servicos ul li{
+	font-style: italic;
+	margin-top: 0.75em;
+	font-size: 87.5%;
+}
+#projetos{
+	text-align:center;
+	color:#F4F4F4;
+	font-weight:600;
+}
+#projetos:hover{
+}
+#projetos #barraPjt{
+	width:100%;
+	height:400px;
+}
+#projetos #barraPjt #contPjt{
+	padding-top:107px;
+}
+#projetos h1{
+	font-size:50px;
+	margin:10px;
+}
+#projetos h2{
+	font-size:20px;
+	margin:5px;
+}
+#projetos #plus{
+	width:80px;
+	height:80px;
+	margin:0 auto;
+	cursor:pointer;
+	background:url(../imgs/plus_btn.png) no-repeat scroll center center transparent;
+}
+#projetos #plus:hover{
+	background:url(../imgs/plus_btn_hover.png) no-repeat scroll center center transparent;
+}
+#empresas{
+	width:100%;
+	padding-top:300px;
+	padding-bottom:300px;
+	text-align:center;
+}
+#empresas span{
+	width: 435.75px;
+	vertical-align: middle;
+	margin:60px;
+	margin-bottom:0;
+	margin-top:0;
+}
+#empresas img{
+	vertical-align: middle;
+	width:15%;
+	opacity:0.6;
+}
+#perfilCompleto{
+	width:1080px;
+	margin:0 auto;
+	padding-bottom:200px;
+}
+/* Estudar isso */
+#perfilCompleto #fotoVideo:after{
+	position: absolute;
+	z-index: 10;
+	width: 370px;
+	height: 370px;
+	background:url(../imgs/mask.png) no-repeat scroll left top transparent;
+	content: " ";
+	top: 0px;
+	left: 0px;
+}
+#perfilCompleto #fotoVideo{
+	position: relative;
+	margin-bottom: 30px;
+	overflow: hidden;
+	width: 370px;
+	height: 370px;
+	display:inline-block;
+	vertical-align:top;
+}
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background:url(../imgs/pattern_video.png) repeat scroll 0% 0% transparent;
+	z-index: 10;
+	top: 0px;
+	right: 0px;
+}
+#perfilCompleto #fotoVideo #me_vid, video{
+	margin-left: -160px;
+	display: block;
+	vertical-align: baseline;
+}
+/* Estudar isso até aqui */
+#perfilCompleto #sobre{
+	width:300px;
+	height:20px;
+	display:inline-block;
+	vertical-align:top;
+	padding-left:20px;
+}
+#perfilCompleto #sobre h1{
+	font-size:36px;
+	margin-bottom:30px;
+}
+#perfilCompleto #sobre p{
+	font-size: 18px;
+	color: #73665D;
+	line-height: 40px;
+}
+#perfilCompleto #informacoes{
+	width:300px;
+	display:inline-block;
+	vertical-align:top;
+	padding-left:40px;
+}
+#perfilCompleto #informacoes section{
+	padding:10px;
+	padding-left:0;
+	border-bottom:1px solid rgba(115,102,93,0.3);
+}
+#perfilCompleto #informacoes section i{
+	font-size:36px;
 }
 #footer{
 	width:100%;
