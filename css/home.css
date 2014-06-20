@@ -217,7 +217,8 @@
 	right: 0px;
 }
 #perfilCompleto #fotoVideo #me_vid, video{
-	margin-left: -160px;
+	margin-left: -190px;
+	margin-top: 15px;
 	display: block;
 	vertical-align: baseline;
 }
