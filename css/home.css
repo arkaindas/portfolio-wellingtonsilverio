@@ -207,7 +207,7 @@
 	display:inline-block;
 	vertical-align:top;
 }
-.overlay{
+#perfilCompleto #fotoVideo #overlay{
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -239,7 +239,7 @@
 	line-height: 40px;
 }
 #perfilCompleto #informacoes{
-	width:300px;
+	width:340px;
 	display:inline-block;
 	vertical-align:top;
 	padding-left:40px;
@@ -251,6 +251,74 @@
 }
 #perfilCompleto #informacoes section i{
 	font-size:36px;
+	margin-right:10px;
+}
+#pecatrabalho{
+	padding-bottom:200px;
+	padding-top:200px;
+	width:100%;
+	text-align:center;
+}
+#pecatrabalho input{
+	padding:20px;
+	margin:0 auto;
+	font-size:24px;
+	font-weight:bold;
+	border-radius:3px;
+	border:2px solid rgba(190, 50, 50, 0.9);
+	color:rgba(190, 50, 50, 1);
+}
+#pecatrabalho input:hover{
+	cursor:pointer;
+	color:#FFFFFF;
+	background:rgba(190, 50, 50, 1);
+}
+#opensource{
+	width:100%;
+	padding-top:400px;
+	padding-bottom:200px;
+	text-align:center;
+}
+#opensource h1{
+	font-size: 36px;
+	margin: 10px;
+}
+#opensource p{
+	width:900px;
+	margin:0 auto;
+	color: #73665D;
+	line-height:25px;
+	padding:10px;
+}
+#opensource #photo{
+	padding-bottom:20px;
+}
+#opensource #ultimosOpenSource{
+	text-align:center;
+	margin:0 auto;
+	padding-top:40px;
+}
+#opensource #ultimosOpenSource div{
+	width:200px;
+	height:200px;
+	background-color:rgba(66,66,66,1.00);
+	display:inline-block;
+	margin:10px;
+	border-radius:100%;
+	vertical-align:top;
+	border:2px solid rgba(66,66,66,1.00);
+}
+#opensource #ultimosOpenSource h1{
+	width:150px;
+	margin:0 auto;
+	font-size:18px;
+	font-weight:bold;
+}
+#opensource #ultimosOpenSource p{
+	width:160px;
+	font-size:12px;
+	font-weight:normal;
+	border-radius:100%;
 }
 #footer{
 	width:100%;

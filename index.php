@@ -110,20 +110,20 @@
 </div>
 <div id="perfilCompleto">
 	<div id="fotoVideo">
-    	<div clss="overlay"></div>
-        <video id="me_vid" preload="" autoplay="" loop="" muted="" height="380">
+    	<div id="overlay"></div>
+        <video id="me_vid" preload="" autoplay loop muted height="380">
             <source src="video/me3.mp4">
             <source src="video/me3.webm">
         </video>
     </div>
-	<div id="sobre"><h1>Eu, Wellington A. A. Silverio</h1><p>Olá! Eu sou estudante da Escola Técnica Estadual (Centro Paula Souza), Hortolândia - SP, e eu trabalho atualmente como autônomo. Meu objetivo é trabalhar no setor de Analise de projetos WEB/MOBILE/SISTEMAS.</p></div>
+	<div id="sobre"><h1>Silverio, Wellington</h1><p>Olá! Eu sou estudante da Escola Técnica Estadual (Centro Paula Souza), Hortolândia - SP, e eu trabalho atualmente como autônomo. Meu objetivo é trabalhar no setor de Analise de projetos WEB/MOBILE/SISTEMAS.</p></div>
 	<div id="informacoes">
     	<section><i class="icon-doc-text-inv"></i>cv</section>
     	<section><i class="icon-mail-1"></i>wellington.silverio@etec.sp.gov.br</section>
-    	<section><i class="icon-facebook"></i>facebook.com/Wellington.A.Silverio</section>
-    	<section><i class="icon-gplus"></i>plus.google.com/Wellington Silverio</section>
     	<section><i class="icon-mobile"></i>+55 (19) 9 8317-2306</section>
+    	<section><i class="icon-facebook"></i>facebook.com/Wellington.A.Silverio</section>
     	<section><i class="icon-github"></i>github.com/wellingtonsilverio</section>
+    	<section><i class="icon-codepen"></i>em desenvolvimento</section>
     </div>
 </div>
 <div id="projetos">
@@ -165,15 +165,18 @@
 </div>
 <div id="opensource">
 	<!-- IDEIA: colocar um debate, sobre Open source.  -->
-    <h1></h1>
-    <p></p>
+    <h1>desenvolvimento open source</h1>
+    <p>Segundo a <a>opensource.org</a>, Open source não significa apenas acesso ao código-fonte. Os termos de distribuição de software de código aberto obedecem a critérios: Redistribuição livre; Código Fonte Aberto; Modificar Derivados; Integridade do Código Fonte do Autor; Sem Discriminação Contra Pessoas ou Grupos; Sem Discriminação Contra Campos de Trabalho; Distribuição em uma Licença; Licença não pode ser específica a um Produto; Licença não deve restringir Outro Software; Licença deve ser tecnologicamente neutros.</p>
+    <div id="photo"><img src="imgs/open-source-software-industry.jpg" title="Demostração de palavras chaves para Open Source" /><br /><span>Fonte: <a href="http://simpledeveloper.com/open-source-projects/">Simple Developer: Making Sense of The Complex Universe</a></span></div>
     <div id="ultimosOpenSource">
-    	<div></div><div></div><div></div><div></div><div></div>
-    	<div></div><div></div><div></div><div></div><div></div>
+    	<div><h1 style="padding-top:60px;">Java: SocialStudy</h1><p>Projeto de um sistema desktop para a rede social SocialStudy.</p></div>
+    	<div><h1 style="padding-top:60px;">WEB: Portfolio</h1><p>Projeto do website portfolio de Wellington Silverio.</p></div>
+    	<div><h1 style="padding-top:50px;">WEB: SocialStudy</h1><p style="width:180px;">Websistema PHP, Javascript de rede social focada em estudos, TCC Técino de Informática 2014</p></div>
+    	<div><h1 style="padding-top:28px;">WEB: BibliotecaETEC</h1><p>Websistema PHP de biblioteca para a ETEC de Hortolândia, TCC Técino de Informática para internet 2014</p></div>
     </div>
 </div>
 <div id="pecatrabalho">
-	<input type="button" name="" value="Work With Us" title="Work With Us" />
+	<input type="button" name="" value="Trabalhe Conosco" title="Trabalhe Conosco" />
 </div>
 <div id="footer">
 	<div id="infoFooter">
