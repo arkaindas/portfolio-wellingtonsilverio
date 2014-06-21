@@ -1,0 +1,210 @@
+
+/************************************************************/
+/*			         	CLIENTS			         			*/
+/************************************************************/
+.thumbs li .info {
+	top: 0px;
+	left: -100%;
+}
+.thumbs {
+	list-style: none;
+	overflow: hidden;
+	width: 150px;
+}
+.thumbs li {
+	width: 150px;
+	height: 150px;
+	background: white;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+	position: relative;
+	overflow: hidden;
+	margin: 5px 0 11px 0;
+	padding: 0!important;
+}
+.thumbs li:first-child {
+	padding: 5px 0!important;
+	margin: 0;
+	height: auto;
+	width: auto;
+}
+.thumbs li .info {
+	position: absolute;
+	z-index: 9;
+	height: 150px;
+	width: 150px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+}
+.thumbs li .info p {
+	font-size: 13px;
+	line-height: 18px;
+}
+.thumbs li .info h3,
+.thumbs li .info p {
+	color: white;
+	text-shadow: 0px 2px 3px black;
+	filter: none;
+	text-align: center;
+	padding: 0 10px 0 10px;
+}
+
+.mask {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	height: 150px;
+	width: 150px;
+}
+
+#clients h3 {font-size:23px; padding-bottom:40px;}
+#clients .info h3 {font-size:20px; padding:20px 20px 0px 20px!important;}
+#clients ul {
+list-style:none;
+float:left;
+width:150px;
+margin:0 20px 0 0;
+padding: 0 15px;
+}
+#clients ul li {padding:5px 0;}
+#clients .client {
+width: 148px;
+height: 148px;
+background:#FFF;
+-webkit-border-radius: 75px;
+border-radius: 75px;
+position:relative;
+}
+#clients ul a {
+	width: 50px;
+	height: 50px;
+	background:#e4e4e4;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	margin:40px auto 0 auto;
+	font-size:45px;
+	display:block;
+	text-align:center;
+}
+
+#clients ul .close {
+	line-height:50px;
+}
+#clients ul .open {
+	line-height:45px;
+}
+
+.member a {
+width: 25px;
+height: 25px;
+/*
+background: #e4e4e4;
+-webkit-border-radius: 25px;
+border-radius: 25px;
+*/
+background:url(../images/bg-biographie.png) no-repeat;
+margin: 7px auto 0 auto;
+line-height: 25px !important;
+font-size: 18px;
+display: block;
+text-align: center;
+}
+.member .bleu:hover {color:#74C3C0;}
+.member .vert:hover {color:#D3C832;}
+.member .rose:hover {color:#F1A99E;}
+.member .orange:hover {color:#E8743F;}
+
+#g-comptes .info {background:#306a7f;}
+#marques .info {background:#74c3c0;}
+#b-to-b .info {background:#d3c832;}
+#start-up .info {background:#f1a99e;}
+#restauration .info {background:#e8743f;}
+#conseil-finance .info {background:#000000;}
+
+#g-comptes .mask {background: url(../images/mask_1.png) no-repeat;}
+#marques .mask {background: url(../images/mask_2.png) no-repeat;}
+#b-to-b .mask {background: url(../images/mask_3.png) no-repeat;}
+#start-up .mask {background: url(../images/mask_4.png) no-repeat;}
+#restauration .mask {background: url(../images/mask_5.png) no-repeat;}
+#conseil-finance .mask {background: url(../images/mask_6.png) no-repeat;}
+
+#g-comptes a {color:#306a7f;}
+#marques a {color:#74c3c0;}
+#b-to-b a {color:#d3c832;}
+#start-up a {color:#f1a99e;}
+#restauration a {color:#e8743f;}
+#conseil-finance a {color:#000000;}
+
+#g-comptes a:hover {background:#306a7f; color:#e4e4e4;}
+#marques a:hover {background:#74c3c0; color:#e4e4e4;}
+#b-to-b a:hover {background:#d3c832; color:#e4e4e4;}
+#start-up a:hover {background:#f1a99e; color:#e4e4e4;}
+#restauration a:hover {background:#e8743f; color:#e4e4e4;}
+#conseil-finance a:hover {background:#000000; color:#e4e4e4;}
+
+#g-comptes .info h3, #g-comptes .info p {text-shadow: 0px 2px 3px #19495b; filter:none;}
+#marques .info h3, #marques .info p {text-shadow: 0px 2px 3px #27628f; filter:none;}
+#b-to-b .info h3, #b-to-b .info p {text-shadow: 0px 2px 3px #b0a619; filter:none;}
+#start-up .info h3, #start-up .info p {text-shadow: 0px 2px 3px #cf8479;filter:none; }
+#restauration .info h3, #restauration .info p {text-shadow: 0px 2px 3px #c8541f; filter: none;}
+#conseil-finance .info h3, #conseil-finance .info p {text-shadow: 0px 2px 3px #000000; filter:none;}
+
+#clients {padding-bottom:40px;}
+.triangle {
+position: relative;
+padding: 15px 0;
+margin: 30px 0 0 0;
+background: #ffffff;
+display: none;
+}
+
+#block-element-1 {border: 1px solid #19495b;}
+#block-element-1:before {border-color:#19495b transparent; left:53px;}
+#block-element-1:after {left:54px;}
+
+#block-element-2 {border: 1px solid #74c3c0;}
+#block-element-2:before {border-color:#74c3c0 transparent; left:223px;}
+#block-element-2:after {left:224px;}
+
+#block-element-3 {border: 1px solid #d3c832;}
+#block-element-3:before {border-color:#d3c832 transparent; left:395px;}
+#block-element-3:after {left:396px;}
+
+#block-element-4 {border: 1px solid #f1a99e;}
+#block-element-4:before {border-color:#f1a99e transparent; left:563px;}
+#block-element-4:after {left:564px;}
+
+#block-element-5 {border: 1px solid #e8743f;}
+#block-element-5:before {border-color:#e8743f transparent; left:733px;}
+#block-element-5:after {left:734px;}
+
+#block-element-6 {border: 1px solid #000000;}
+#block-element-6:before {border-color:#000000 transparent; left:904px;}
+#block-element-6:after {left:905px;}
+	
+.triangle:before {
+	content:"";
+	position:absolute;
+	border-style:solid;
+    display:block; 
+    width:0;
+	top:-20px; /* value = - border-top-width - border-bottom-width */
+	 /* controls horizontal position */
+    border-width:0 20px 20px;
+}
+
+/* creates the smaller  triangle */
+.triangle:after {
+	content:"";
+	position:absolute;
+	border-style:solid;
+	border-color:#fff transparent;
+    display:block; 
+    width:0;
+	top:-18px; /* value = - border-top-width - border-bottom-width */
+	 /* value = (:before right) + (:before border-right) - (:after border-right) */
+    border-width:0 19px 19px;
+}
+.triangle .client {border:1px solid #ffffff; margin-right:20px;}
+.triangle .client.last {margin-right:0!important; border:none;}
