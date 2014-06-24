@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	color: inherit;
+    font-style: normal;
+    letter-spacing: -0.04em;
+    line-height: 1;
+	visibility: visible;
+	text-rendering: optimizelegibility;
+	font-family:'Roboto', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+body{
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+	color: #272F38;
+}
