@@ -87,8 +87,8 @@ html{
     font-size: 18px;
     outline: 0px none;
     letter-spacing: -0.02em;
-    margin-bottom: 30px;
     margin: 0px;
+    margin-bottom: 30px;
     text-align: center;
     visibility: visible;
     font-weight: 400;
@@ -159,7 +159,6 @@ html{
     -webkit-animation: spin 1s linear 1 reverse;
     animation: spin 1s linear 1 reverse;
 }
-
 #servicos h1{
 	font-size:36px;
 	margin:10px;
@@ -172,7 +171,7 @@ html{
 	text-transform: uppercase;
 }
 #servicos #estruSvc{
-	width:300px;
+	width:33%;
 	display:inline-block;
 	vertical-align:top;
 }
@@ -335,11 +334,12 @@ html{
 	margin: 10px;
 }
 #opensource p{
-	width:900px;
+	width:90%;
 	margin:0 auto;
 	color: #73665D;
 	line-height:25px;
-	padding:10px;
+	padding-top:10px;
+	padding-bottom:10px;
 }
 #opensource #photo{
 	padding-bottom:20px;
@@ -350,8 +350,8 @@ html{
 	padding-top:40px;
 }
 #clients{
-	margin:0 auto;
 	width:800px;
+	margin:0 auto;
 }
 #conseil-finance p{
 	color:rgba(255,255,255,1.00);
@@ -373,6 +373,9 @@ html{
 	width: 100%;
 	max-width: 1160px;
 	padding: 40px 0;
+}
+#footer #infoFooter #infosInF{
+	padding-left:10px;
 }
 [class*="entypo-"] {
   font-family: 'entypo', sans-serif;
@@ -418,9 +421,57 @@ html{
     background-repeat: repeat;
     background-attachment: fixed;
 }
-@media (max-width: 873px) {
+@media (max-width: 768px) {
+	html{
+		padding:0;
+	}
+	#perfil{
+		width:700px;
+		margin-left: -350px;
+	}
+	#menu{
+		position:fixed;
+		top:10px;
+		left:10px;
+		width:100px;
+		height:100px;
+		background:url(../imgs/menu_icon.png) no-repeat scroll center center rgba(95,122,135,0.9);
+		border:none;
+	}
+	#menu ul{
+		display:none;
+	}
+	#servicos{
+		width:99%;
+		margin:0 auto;
+	}
+	#empresas span{
+		width:90%;
+		margin:0 auto;
+	}
+	#empresas img{
+		width:70%;
+		margin:40px 0;
+	}
+	#perfilCompleto{
+		width:100%;
+		margin:0 auto;
+		padding-left:0;
+		padding-right:0;
+	}
+	#perfilCompleto #fotoVideo{
+		margin-left:20px;
+	}
+	#perfilCompleto #informacoes{
+		width:100%;
+		padding-left:0;
+		padding-right:0;
+	}
+	#clients{
+		width:90%;
+	}
 	#banner{
-		background-size:873px;
+		background-size:880px;
 	}
 }
 @media (max-height: 480px) {
@@ -455,14 +506,18 @@ html{
 	}
 }
 @media (max-width:320px) {
+	#menu{
+		width:50px;
+		height:50px;
+	}
 	#perfil{
 		width:320px;
 		margin-left:-160px;
 	}
 	#perfil h1{
-		font-size:25px;
+		font-size:24px;
 	}
 	#perfil p{
-		font-size:8px;
+		font-size:9px;
 	}
 }
