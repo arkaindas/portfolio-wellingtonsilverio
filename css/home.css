@@ -8,6 +8,12 @@
 */
 @charset "utf-8";
 /* CSS Document */
+
+/* CARREGAMENTO */
+#servicos, #empresas, #perfilCompleto ,#projetos ,#opensource ,#pecatrabalho, #footer, #menu, #verMais{
+	display:none;
+}
+/* HOME */
 #menu{
 	position:fixed;
 	bottom:0;
@@ -115,7 +121,7 @@ html{
 	margin-left:-500px;
 	display:none;
 }
-#statisticas svg{
+#statisticas img{
 	width:200px;
 	height:200px;
 	margin-left:25px;
@@ -149,6 +155,11 @@ html{
 #servicos img{
 	width:100%;
 }
+#servicos img:hover{
+    -webkit-animation: spin 1s linear 1 reverse;
+    animation: spin 1s linear 1 reverse;
+}
+
 #servicos h1{
 	font-size:36px;
 	margin:10px;
@@ -182,6 +193,7 @@ html{
 	height:400px;
 }
 #projetos #barraPjt #contPjt{
+	display:none;
 	padding-top:107px;
 }
 #projetos h1{
@@ -354,7 +366,6 @@ html{
 	clear:both;
 	background:rgba(41,59,71,1.0);
 	transition: all 0.5s ease 0s;
-	display:block;
 	vertical-align:baseline;
 }
 #footer #infoFooter{
@@ -395,7 +406,18 @@ html{
 	margin-top:10px;
 	color: #687788;
 }
-
+/* PARALLAX DO TRABALHOS */
+.rollParallax {
+    max-width: 1920px;
+    position: relative;
+    min-height: 100%;
+    text-shadow:0 0 10px rgba(0,0,0,0.7);
+    
+	background-size:100%;
+    background-position: 50% 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
 @media (max-width: 873px) {
 	#banner{
 		background-size:873px;
