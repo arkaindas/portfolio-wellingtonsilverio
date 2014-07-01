@@ -4,6 +4,9 @@
 
 /*IPAD*/
 @media (max-width: 768px) {
+	html, body{
+		overflow-x:hidden;
+	}
 	html{
 		padding:0;
 	}
@@ -142,9 +145,6 @@
 }
 /*ANDROID NEXUS 4 PORTAIT */
 @media (max-width: 384px) {
-	html, body{
-		overflow-x:hidden;
-	}
 	#servicos h1{
 		padding-bottom:50px;
 	}
@@ -203,6 +203,7 @@
 		font-size:15px;
 	}
 }
+/*ANDROID CRAPPY Landscape */
 @media (max-width:320px) {
 	#menu{
 		width:50px;
@@ -217,6 +218,15 @@
 	}
 	#perfil p{
 		font-size:9px;
+	}
+	#perfilCompleto{
+		width:100%;
+	}
+	#perfilCompleto #fotoVideo{
+		display:none;
+	}
+	#footer #infoFooter #redesInF {
+		width:160px;
 	}
 }
 
