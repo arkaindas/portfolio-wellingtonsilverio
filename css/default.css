@@ -5,8 +5,8 @@
 	box-shadow: 0 4px 16px rgba(0,0,0,.2);
 	background: white;
 	background-clip: padding-box;
-	border: 1px solid #ACACAC;
-	border: 1px solid rgba(0, 0, 0, .333);
+	/*border: 1px solid #ACACAC;
+	border: 1px solid rgba(0, 0, 0, .333);*/
 	outline: 0;
 	position: fixed;
 	padding: 30px 24px 24px;
@@ -92,13 +92,14 @@
 	left: 0;
 	right: 0;
 	height: 30px;
+	background:rgba(95,122,135,0.5);
 	z-index: 100;
 }
 
 .speedo-ui-close
 {
 	position: absolute;
-	background: transparent url('images/close-btn.png') no-repeat center center;
+	background: rgba(156,10,13,1.00) url(../imgs/close-btn.png) no-repeat center center;
 	right: 0px;
 	top: 0px;
 	/*width: 46px;
@@ -111,12 +112,13 @@
 
 .speedo-popup-loading
 {
-	background: transparent url('images/loading.gif') no-repeat scroll center center;
+	background: transparent url(../imgs/plus_btn_hover.png) no-repeat scroll center center;
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
+	animation: spin infinite;
 }
 
 .speedo-content-holder
@@ -131,6 +133,9 @@
 	-webkit-overflow-scrolling: touch !important;
 }
 
+.speedo-content-holder iframe
+{
+}
 .speedo-content-holder iframe
 {
 	-webkit-overflow-scrolling: touch !important;
