@@ -229,4 +229,33 @@
 		width:160px;
 	}
 }
+/*ANDROID CRAPPY PORTRAIT */
+@media (max-width:240px) {
+	#perfil{
+		width:230px;
+		margin-left:-115px;
+	}
+	#perfil h1{
+		font-size:21px;
+	}
+	#perfil p{
+		font-size:8px;
+	}
+	#servicos #estruSvc h2 {
+		font-size: 22px;
+	}
+	#opensource h1{
+		font-size:22px;
+	}
+	#perfilCompleto #informacoes section {
+		font-size:10px;
+	}
+	#pecatrabalho input {
+		padding:10px;
+		font-size:20px;
+	}
+	#footer #infoFooter #infosInF {
+		font-size:10px;
+	}
+}
 
