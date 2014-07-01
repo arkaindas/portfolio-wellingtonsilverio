@@ -274,7 +274,6 @@ html{
 /* Estudar isso até aqui */
 #perfilCompleto #sobre{
 	width:300px;
-	height:20px;
 	display:inline-block;
 	vertical-align:top;
 	padding-left:20px;
@@ -421,6 +420,7 @@ html{
     background-repeat: repeat;
     background-attachment: fixed;
 }
+/*IPAD*/
 @media (max-width: 768px) {
 	html{
 		padding:0;
@@ -472,6 +472,59 @@ html{
 	}
 	#banner{
 		background-size:880px;
+	}
+}
+/*ANDROID NEXUS 4*/
+@media (max-width: 600px) {
+	#perfil{
+		width:580px;
+		margin-left: -290px;
+	}
+	#servicos #estruSvc{
+		width:30%;
+	}
+	#servicos #estruSvc h2{
+		font-size:16px;
+	}
+	#servicos #estruSvc ul li{
+		font-size:10px;
+	}
+	#opensource #photo img{
+		width:90%;
+	}
+	#opensource #ultimosOpenSource{
+		width:450px;
+	}
+	#perfilCompleto{
+		width:380px;
+		margin:0 auto;
+	}
+	#perfilCompleto #fotoVideo{
+		margin:0;
+		padding:0;
+	}
+	#perfilCompleto #sobre{
+		text-align:center;
+		padding-bottom:20px;
+	}
+	#footer #infoFooter #infosInF{
+		clear:both;
+		float: none;
+		padding:0;
+		margin:0 auto;
+		width:90%;
+		display:block;
+		text-align:center;
+	}
+	#footer #infoFooter #redesInF {
+		clear:both;
+		float: none;
+		padding:0;
+		margin:0 auto;
+		width:380px;
+		display:block;
+		padding-top:10px;
+		text-align:center;
 	}
 }
 @media (max-height: 480px) {
