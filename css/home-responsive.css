@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS RESPONSIVE */
+
+
+/*IPAD*/
+@media (max-width: 768px) {
+	html{
+		padding:0;
+	}
+	#perfil{
+		width:700px;
+		margin-left: -350px;
+	}
+	#menu{
+		position:fixed;
+		top:10px;
+		left:10px;
+		width:100px;
+		height:100px;
+		background:url(../imgs/menu_icon.png) no-repeat scroll center center rgba(95,122,135,0.9);
+		border:none;
+	}
+	#menu ul{
+		display:none;
+	}
+	#servicos{
+		width:99%;
+		margin:0 auto;
+	}
+	#empresas span{
+		width:90%;
+		margin:0 auto;
+	}
+	#empresas img{
+		width:70%;
+		margin:40px 0;
+	}
+	#perfilCompleto{
+		width:100%;
+		margin:0 auto;
+		padding-left:0;
+		padding-right:0;
+	}
+	#perfilCompleto #fotoVideo{
+		margin-left:20px;
+	}
+	#perfilCompleto #informacoes{
+		width:100%;
+		padding-left:0;
+		padding-right:0;
+	}
+	#clients{
+		width:90%;
+	}
+	#banner{
+		background-size:880px;
+	}
+}
+/*ANDROID NEXUS 4*/
+@media (max-width: 600px) {
+	#perfil{
+		width:580px;
+		margin-left: -290px;
+	}
+	#servicos #estruSvc{
+		width:30%;
+	}
+	#servicos #estruSvc h2{
+		font-size:16px;
+	}
+	#servicos #estruSvc ul li{
+		font-size:10px;
+	}
+	#opensource #photo img{
+		width:90%;
+	}
+	#opensource #ultimosOpenSource{
+		width:450px;
+	}
+	#perfilCompleto{
+		width:370px;
+		margin:0 auto;
+	}
+	#perfilCompleto #fotoVideo{
+		margin:0;
+		padding:0;
+	}
+	#perfilCompleto #sobre{
+		text-align:center;
+		padding-bottom:20px;
+	}
+	#footer #infoFooter #infosInF{
+		clear:both;
+		float: none;
+		padding:0;
+		margin:0 auto;
+		width:90%;
+		display:block;
+		text-align:center;
+	}
+	#footer #infoFooter #redesInF {
+		clear:both;
+		float: none;
+		padding:0;
+		margin:0 auto;
+		width:380px;
+		display:block;
+		padding-top:10px;
+		text-align:center;
+	}
+}
+@media (max-height: 480px) {
+	#banner{
+		height:280px;
+		background-position:0 280px;
+	}
+	#perfil{
+		top:280px;
+	}
+	
+}
+@media (max-width: 480px) {
+	#perfil{
+		width:360px;
+		margin-left:-180px;
+	}
+	#perfil h1{
+		font-size:32px;
+	}
+	#perfil p{
+		font-size:12px;
+	}
+}
+@media (max-height: 320px) {
+	#banner{
+		height:130px;
+		background-position:0 130px;
+	}
+	#perfil{
+		top:130px;
+	}
+}
+/*ANDROID NEXUS 4 PORTAIT */
+@media (max-width: 384px) {
+	html, body{
+		overflow-x:hidden;
+	}
+	#servicos h1{
+		padding-bottom:50px;
+	}
+	#servicos #estruSvc{
+		padding-top:20px;
+		width:90%;
+	}
+	#servicos #estruSvc img{
+		width:50%;
+	}
+	#servicos #estruSvc h2{
+		font-size:24px;
+		margin:0;
+	}
+	#servicos #estruSvc ul li{
+		font-size:16px;
+	}
+	#perfilCompleto{
+		width:370px;
+		margin:0 auto;
+	}
+	#perfilCompleto #sobre{
+		width:98%;
+		padding-left:1%;
+		margin:0;
+		padding:0;
+	}
+	#perfilCompleto #informacoes{
+		width:100%;
+		margin:0;
+		padding:0;
+	}
+	#opensource{
+		margin-bottom:200px;
+	}
+	#opensource #ultimosOpenSource {
+		width:170px;
+	}
+	#clients ul{
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px;
+	}
+	#clients #conseil-finance {
+		padding: 0;
+		margin: 0;
+	}
+	#pecatrabalho {
+		padding-top: 400px;
+	}
+	#footer #infoFooter #redesInF {
+		width:320px;
+	}
+	[class*="entypo-"] {
+		width:15px;
+		height:15px;
+		font-size:15px;
+	}
+}
+@media (max-width:320px) {
+	#menu{
+		width:50px;
+		height:50px;
+	}
+	#perfil{
+		width:320px;
+		margin-left:-160px;
+	}
+	#perfil h1{
+		font-size:24px;
+	}
+	#perfil p{
+		font-size:9px;
+	}
+}
+
