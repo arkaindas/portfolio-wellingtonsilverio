@@ -2,22 +2,23 @@
 /* CSS Document */
 /* PALETA: https://kuler.adobe.com/Liberal-Corporation-color-theme-3935124/ */
 /*
-#293B47 rgba(41,59,71,1.0);
-#5F7A87 rgba(95,122,135,1.0);
-#FFFFFF rgba(255,255,255,1.0);
-#CBFF48 rgba(203,255,72,1.0);
-#00ADA9 rgba(0,173,169,1.0);
-*/
-*{
+ #293B47 rgba(41,59,71,1.0);
+ #5F7A87 rgba(95,122,135,1.0);
+ #FFFFFF rgba(255,255,255,1.0);
+ #CBFF48 rgba(203,255,72,1.0);
+ #00ADA9 rgba(0,173,169,1.0);
+ */
+* {
 	color: inherit;
-    font-style: normal;
-    letter-spacing: -0.04em;
-    line-height: 1;
+	font-style: normal;
+	letter-spacing: -0.04em;
+	line-height: 1;
 	visibility: visible;
 	text-rendering: optimizelegibility;
-	font-family:'Roboto', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
-body{
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+html, body {
+	text-shadow: 1px 1px 1px rgba(200, 200, 200, 0.3);
 	color: rgba(41,59,71,1.0);
+	overflow-x: hidden;
 }
