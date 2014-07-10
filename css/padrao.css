@@ -15,7 +15,7 @@
 	line-height: 1;
 	visibility: visible;
 	text-rendering: optimizelegibility;
-	font-family: 'Roboto', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
 html, body {
 	text-shadow: 1px 1px 1px rgba(200, 200, 200, 0.3);

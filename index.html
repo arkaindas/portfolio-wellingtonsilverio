@@ -3,11 +3,10 @@
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="pt-br">
+<html class="no-js" lang="pt-br">
 	<!--<![endif]-->
 	<head>
 		<title>desenvolvimento desktop, mobile, web &amp; designer - Campinas, SP | Wellington A. A. Silverio.</title>
-		<link href='css/roboto.css' rel='stylesheet' type='text/css'>
 		<link href='css/weloveiconfonts.com.css' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/fontello.css">
 		<link rel="stylesheet" href="css/animation.css">
@@ -57,10 +56,10 @@
 
 		<!-- JAVASCRIPT FILES -->
 		<!-- Javascript - Base -->
+		<script type="text/javascript" src="javascript/jquery-1.js"></script>
+        <script src="javascript/vendor/modernizr-2.8.0.min.js"></script>
 
 		<!-- ARQUIVOS DO OPENSOUCER -->
-		<!-- JAVASCRIPT FILES -->
-		<script type="text/javascript" src="javascript/jquery-1.js"></script>
 
 		<!-- JAVASCRIPT PAGE (LOAD) -->
 		<script type="text/javascript" src="javascript/pace.min.js"></script>
@@ -114,6 +113,9 @@
 					if (this.hash != "#banner")
 						$('#brnStat').html("<li>Ir para o topo</li>");
 				});
+				$('.preview-button').click(function(){
+					$('#projetoLoad').load('projeto.php');
+				});
 			});
 		</script>
 		<!-- CODIGO DE ROLAGEM end -->
@@ -129,58 +131,17 @@
 				$('#barraPjt').mouseleave(function(event) {
 					$(this).children("#contPjt").hide(400);
 				});
+				$('.barraComu').mouseover(function(event) {
+					$(this).children("#contPjt").show(500);
+				});
+				$('.barraComu').mouseleave(function(event) {
+					$(this).children("#contPjt").hide(400);
+				});
 
 			})
 		</script>
 		<!-- PARALLAX DO TRABALHOS end-->
 		<!-- JAVASCRIPT FILES end -->
-
-		<!-- FILE POPUP -->
-		<!--[if lt IE 9]>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<![endif]-->
-		<!--[if gte IE 9]><!-->
-		<!-- FILE POPUP ----------------------------------------------------------------------------------------------------------------------------<script src="javascript/ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="javascript/jquery.js"></script>
-		<!--<![endif]-->
-
-		<!-- IE Fix for HTML5 Tags -->
-		<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<!-- FILE POPUP ----------------------------------------------------------------------------------------------------------------------------
-		<script type="text/javascript" src="javascript/speedo_002.js"></script>
-		<link media="screen" type="text/css" href="css/default.css" rel="stylesheet">
-		<script type="text/javascript">
-		$(function(){
-		$('.preview-button').click(function(){
-		var skinName = $(this).data('skin');
-		var css3Effects = $(this).data('css3effect');
-		var effect = $(this).data('effect') || "fade";
-		var href = $(this).data('src') || "erro.html";
-		var largura = $(window).width();
-		var altura = $(window).height();
-		var width = $(this).data('width') || (largura*0.95)+"px";
-		var height = $(this).data('height') || "95%";
-
-		$("body").speedoPopup(
-		{
-		href: href,
-		height: height,
-		width: width,
-		useFrame: true,
-		theme: skinName,
-		unload: true,
-		draggable: true,
-		effectIn: effect,
-		effectOut: effect,
-		css3Effects: css3Effects
-		});
-
-		return false;
-		});
-		});
-		</script>
-		<!-- FILE POPUP end -->
 
 		<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=3" />
 
@@ -201,7 +162,7 @@
 				</li></a>
 				<a href="#servicos" class="scroll">
 				<li>
-					Servi�os
+					Servi&ccedil;os
 				</li></a>
 				<a href="#empresas" class="scroll">
 				<li>
@@ -277,13 +238,13 @@
 				</p>
 				<a href="#perfilCompleto" class="scroll">
 				<div id="verMais">
-					Mais Informa��es
+					Mais Informa&ccedil;&otilde;es
 				</div></a>
 			</header>
 		</div>
 
 		<div id="servicos">
-			<h1>Servi�os</h1>
+			<h1>Servi&ccedil;os</h1>
 			<div id="estruSvc">
 				<img src="imgs/design-eae23e0c.svg" title="Design" />
 				<h2>Design</h2>
@@ -292,19 +253,19 @@
 						Web, Desktop &amp; Mobile Design
 					</li>
 					<li>
-						Melhor experi�ncia
+						Melhor experi&ecirc;ncia
 					</li>
 					<li>
 						Usabilidade
 					</li>
 					<li>
-						Design de interfaces para usu�rios
+						Design de interfaces para usu&aacute;rios
 					</li>
 					<li>
-						Arquitetura da informa��o
+						Arquitetura da informa&ccedil;&atilde;o
 					</li>
 					<li>
-						Design V�deos &amp; Renderiza��o
+						Design V&iacute;deos &amp; Renderiza&ccedil;&atilde;o
 					</li>
 				</ul>
 			</div>
@@ -316,7 +277,7 @@
 						Websites
 					</li>
 					<li>
-						Aplica��es Web
+						Aplica&ccedil;&otilde;es Web
 					</li>
 					<li>
 						Sistemas Windows
@@ -325,7 +286,7 @@
 						Aplicativos Android
 					</li>
 					<li>
-						Gerenciamento de Conte�do
+						Gerenciamento de Conte&uacute;do
 					</li>
 					<li>
 						Sistema de E-Commerce
@@ -337,7 +298,7 @@
 				<h2>Consultoria</h2>
 				<ul>
 					<li>
-						Integra��o com M�dia Social
+						Integra&ccedil;&atilde;o com M&iacute;dia Social
 					</li>
 					<li>
 						Search Marketing
@@ -363,7 +324,7 @@
 			<div id="sobre">
 				<h1>Silverio, Wellington</h1>
 				<p>
-					Ol�! Eu sou estudante da Escola T�cnica Estadual (Centro Paula Souza), Hortol�ndia - SP, e eu trabalho atualmente como aut�nomo. Meu objetivo � trabalhar no setor de Analise de projetos WEB/MOBILE/SISTEMAS.
+					Ol&aacute;! Eu sou estudante da Escola T&eacute;cnica Estadual (Centro Paula Souza), Hortol&acirc;ndia - SP, e eu trabalho atualmente como freelancer. Meu objetivo &eacute; trabalhar no setor de Analise de projetos WEB/MOBILE/SISTEMAS.
 				</p>
 			</div>
 			<div id="informacoes">
@@ -391,14 +352,21 @@
 		<div id="projetos">
 			<div id="barraPjt" class="rollParallax" data-spaco="150" style="background-color:#b3b1bc; background-image:url(imgs/trabalhos/armazem.jpg);">
 				<div id="contPjt">
-					<h1>armaz�m do estudante</h1>
+					<h1>armaz&eacute;m do estudante</h1>
 					<h2>WEBSITE | WEBADMIN | GALERIA WEB | BANNER | OUTDOOR</h2>
+					<a><div id="plus"></div></a>
+				</div>
+			</div>
+			<div id="barraPjt" class="rollParallax barraComu" style="background-color:#3C4B5D; background-image:url(imgs/trabalhos/comunicativa.png);">
+				<div id="contPjt">
+					<h1>R&aacute;dio ComunicativaFM</h1>
+					<h2>WEBSITE | WEBADMIN | GALERIA WEB | PAINEL PROMOCIONAL | PLAYER</h2>
 					<a><div id="plus"></div></a>
 				</div>
 			</div>
 			<div id="barraPjt" class="rollParallax" data-spaco="200" style="background-color:#1BA466;">
 				<div id="contPjt" style="display:block">
-					<h1>conhe�a mais</h1>
+					<h1>conhe&ccedil;a mais</h1>
 					<h2>DIVERSOS</h2>
 					<a><div id="plus"></div></a>
 				</div>
@@ -409,9 +377,9 @@
 			<!-- IDEIA: colocar um debate, sobre Open source.  -->
 			<h1>desenvolvimento open source</h1>
 			<p>
-				Segundo a <a>opensource.org</a>, Open source n�o significa apenas acesso ao c�digo-fonte. Os termos de distribui��o de software de c�digo aberto obedecem a crit�rios: Redistribui��o livre; C�digo Fonte Aberto; Modificar Derivados; Integridade do C�digo Fonte do Autor; Sem Discrimina��o Contra Pessoas ou Grupos; Sem Discrimina��o Contra Campos de Trabalho; Distribui��o em uma Licen�a; Licen�a n�o pode ser espec�fica a um Produto; Licen�a n�o deve restringir Outro Software; Licen�a deve ser tecnologicamente neutros.
+				Segundo a <a>opensource.org</a>, Open source n&atilde;o significa apenas acesso ao codigo-fonte. Os termos de distribui&ccedil;&atilde;o de software de c&oacute;digo aberto obedecem a crit&eacute;rios: Redistribui&ccedil;&atilde;o livre; C&oacute;digo Fonte Aberto; Modificar Derivados; Integridade do C&oacute;digo Fonte do Autor; Sem Discrimina&ccedil;&atilde;o Contra Pessoas ou Grupos; Sem Discrimina&ccedil;&atilde;o Contra Campos de Trabalho; Distribui&ccedil;&atilde;o em uma Licen&ccedil;a; Licen&ccedil;a n&atilde;o pode ser especf&iacute;fica a um Produto; Licen&ccedil;a n&atilde;o deve restringir Outro Software; Licen&ccedil;a deve ser tecnologicamente neutros.
 			</p>
-			<div id="photo"><img src="imgs/open-source-software-industry.jpg" title="Demostra��o de palavras chaves para Open Source" />
+			<div id="photo"><img src="imgs/open-source-software-industry.jpg" title="Demostra&ccedil;&atilde;o de palavras chaves para Open Source" />
 				<br />
 				<span>Fonte: <a href="http://simpledeveloper.com/open-source-projects/">Simple Developer: Making Sense of The Complex Universe</a></span>
 			</div>
@@ -459,7 +427,7 @@
 									<div style="background-color:rgba(191,191,191,1.00);" class="info info-radius">
 										<h3>WEB: SocialStudy</h3>
 										<p>
-											Websistema PHP, Javascript de rede social focada em estudos, TCC T�cino de Inform�tica 2014
+											Websistema PHP, Javascript de rede social focada em estudos, TCC T&eacute;cino de Inform&aacute;tica 2014
 										</p>
 									</div><!--info-->
 									<img src="imgs/github.png" height="148" width="148">
@@ -476,7 +444,7 @@
 									<div style="background-color:rgba(68,175,47,1.00);" class="info info-radius">
 										<h3>WEB: Biblioteca</h3>
 										<p>
-											Websistema PHP de biblioteca, TCC T�cino de Inform�tica para internet 2014
+											Websistema PHP de biblioteca, TCC T&eacute;cino de Inform&aacute;tica para internet 2014
 										</p>
 									</div><!--info-->
 									<img src="imgs/github.png" height="148" width="148">
@@ -491,13 +459,14 @@
 
 		<div id="pecatrabalho" class="main skins animate_default">
 			<input class="preview-button" data-skin="default" data-src="popup_responsive.htm" alt="Inicie um Projeto" type="button" name="" value="Inicie um Projeto" title="Inicie um Projeto" />
+			<div id="projetoLoad" style="width: 1090px; margin: 0 auto;"></div>
 		</div>
 
 		<div id="footer">
 			<div id="infoFooter">
 				<div id="infosInF">
 					<div>
-						� 2014 Wellington A. A. Silverio
+						&copy; 2014 Wellington A. A. Silverio
 					</div>
 					<div>
 						Rodando no Apache / Servidor Windows
